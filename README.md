@@ -7,12 +7,15 @@ Welcome to the API Explorer Dashboard project! This dashboard fetches and displa
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/api-explorer-dashboard.git
-Usage
+   
+**Usage**
 Click on the "Fetch data to console" button to retrieve data from the API and view it in the browser console.
 Click on the "Fetch and display the data" button to fetch data and display team members with their names and avatars.
-Technologies Used
+
+**Technologies Used**
 HTML
 CSS
 JavaScript
-Credits
+
+**Credits**
 Data provided by Reqres
