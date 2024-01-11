@@ -14,7 +14,7 @@ function fetchDataAndDisplay() {
         .then((result) => {
             //displaySection.innerHTML=result.data[0].first_name}
             result.data.forEach((person)=> {
-        disp.innerHTML = disp.innerHTML + `<li>${person.first_name} ,  ${person.last_name}, <img src= ${person.avatar}> <li>`
+        disp.innerHTML = disp.innerHTML + `<li>${person.first_name} ,  ${person.last_name}  <img src= ${person.avatar}> <li>`
         disp.classList.add("sticky");
        
     });
