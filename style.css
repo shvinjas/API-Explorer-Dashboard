@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100vh;
+  font-family: "Lemon", serif;
+}
+#pt-ext-root {
+  display: none;
+}
+.display {
+  order: 2;
+  background-color: yellow;
+}
+.container {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+.sticky {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  order: 1;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  order: -1;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.disp {
+  display: inline-block;
+  position: absolute;
+}
+.apiFetch {
+  position: absolute;
+}
+
+.apiFetch {
+  position: fixed;
+  bottom: 50%;
+  left: 8%;
+  width: 35%;
+  height: 200px;
+  overflow-y: hidden;
+  background-color: green;
+  border: none;
+  padding: 30px;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  transition: max-height 0.3s ease;
+}
+
+.apiFetch h1 {
+  margin-top: 50;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+.apiFetch button {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 1px 0px 0px rgba(8, 130, 69, 0.22),
+    1px 0px 0px 0px rgba(10, 208, 135, 0.22),
+    1px 2px 0px 0px rgba(4, 185, 58, 0.22),
+    2px 1px 0px 0px rgba(8, 204, 106, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22),
+    3px 2px 0px 0px rgba(0, 0, 0, 0.22), 3px 4px 0px 0px rgba(0, 0, 0, 0.22),
+    4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22),
+    5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22),
+    6px 5px 0px 0px rgba(0, 0, 0, 0.22), 6px 7px 0px 0px rgba(0, 0, 0, 0.22),
+    7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22),
+    8px 7px 0px 0px rgba(0, 0, 0, 0.22);
+  background-color: yellow;
+}
+
+.apiFetch button + button {
+  margin-left: 20px;
+}
+
+#display-section {
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
